@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    background-color: hsl(0, 0%, 95%);
+    overflow: hidden;
+    font-size:14px;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 80vh;
+    width:100%;
+}
+
+.card-container {
+    padding: 20px; 
+    overflow: hidden;  
+    display:flex;
+    width:70%;
+}
+
+.card {
+    padding:45px;
+}
+
+.info {
+    line-height:150%;
+    width:100%;
+    margin-top:50px;
+    margin-bottom:80px;
+}
+
+.title {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+    font-size:24pt;
+    text-transform: uppercase;
+}
+
+.learn {
+    background-color:hsl(0, 0%, 95%);
+    border-radius: 100px;
+    border:none;
+    text-align:center;
+    width:150px;
+    padding:10px 15px;
+    font-family: 'Lexend Deca';
+}
+
+.icon {
+    margin-bottom:20px;
+}
+
+
+
+.orange-text {
+    color:hsl(31, 77%, 52%);
+}
+
+.dark-cyan-text{
+    color:hsl(184, 100%, 22%);
+}
+
+.darker-cyan-text{
+    color:hsl(179, 100%, 13%);
+}
+
+.orange {
+    background-color:hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.dark-cyan {
+    background-color:hsl(184, 100%, 22%);
+}
+
+.darker-cyan {
+    background-color:hsl(179, 100%, 13%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
